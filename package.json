@@ -1,0 +1,8 @@
+{
+  "name": "typescript_python_build",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Yunsang Jeong",
+  "license": "MIT",
+  "private": false
+}

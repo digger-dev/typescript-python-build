@@ -19,7 +19,7 @@ export function runPython(path: string, file : string){
     if(_file[_file.length - 1] === "py"){
         var foo: child.ChildProcess = child.exec(command, function(err, stdout, stderr){
             if(err){
-                throw new Error("Error" + err.message);
+                throw new Error("Error" + stdout);
             }
             
             lastOutPut = stdout;

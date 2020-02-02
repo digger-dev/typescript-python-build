@@ -16,9 +16,6 @@
     "build": "tsc",
     "test": "mocha --reporter spec"
   },
-  "dependencies": {
-    "pluralize": "^8.0.0"
-  },
   "devDependencies": {
     "@types/node": "^13.7.0",
     "@types/pluralize": "0.0.29",

@@ -1,0 +1,5 @@
+.DS_Store
+.git*
+lib/
+node_modules/
+node_modules

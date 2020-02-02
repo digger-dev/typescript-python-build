@@ -1,8 +1,28 @@
 {
   "name": "typescript_python_build",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "./lib/python_builder.js",
   "author": "Yunsang Jeong",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digger-dev/typescript-python-build.git"
+  },
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "@types/pluralize": "0.0.29",
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1"
+  }
 }
